@@ -1,0 +1,22 @@
+#!/bin/sh
+
+if [ ! -x /usr/bin/Net-Disco-daemon ]
+then
+	echo "Failed to find /usr/bin/Net-Disco-daemon"
+	exit 0
+fi
+
+if [ "$1" = "stop" -o "$1" = "restart" ]
+then
+	echo "Stopping Net-Disco-daemon: "
+	killall Net-Disco-daemon
+fi
+
+if [ "$1" = "start" -o "$1" = "restart" ]
+then
+	echo "Starting Net-Disco-daemon: "	
+	daemon /usr/bin/Net-Disco-daemon
+fi
+
+
+
