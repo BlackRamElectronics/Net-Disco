@@ -1,5 +1,5 @@
-# InnoPrint
-# FindHubs-Server
+# Black Ram Electronics
+# Net-Disco daemon
 
 include Sources.mk
 include Includes.mk
@@ -7,7 +7,7 @@ include Includes.mk
 TOOLCHAIN_PREFIX = arm-linux-
 CC = $(TOOLCHAIN_PREFIX)g++
 
-OUTPUT = FindHubs-Server
+OUTPUT = Net-Disco-daemon
 
 LIBS =
 LIBS_DIR =

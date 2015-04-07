@@ -1,5 +1,5 @@
-# InnoPrint
-# FindServer
+# Black Ram Electronics
+# Net-Disco Discovery
 
 include Sources.mk
 include Includes.mk
@@ -7,7 +7,7 @@ include Includes.mk
 TOOLCHAIN_PREFIX = 
 CC = $(TOOLCHAIN_PREFIX)g++
 
-OUTPUT = FindHubs-Client
+OUTPUT = Net-Disco-Discovery
 
 LIBS =
 LIBS_DIR =
